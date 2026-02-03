@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="robotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0066ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- 机器人头部 -->
+  <ellipse cx="32" cy="32" rx="20" ry="24" fill="url(#robotGradient)" />
+  <!-- 眼睛 -->
+  <ellipse cx="24" cy="30" rx="4" ry="3" fill="#ffffff" />
+  <ellipse cx="40" cy="30" rx="4" ry="3" fill="#ffffff" />
+  <!-- 嘴巴 -->
+  <rect x="26" y="38" width="12" height="2" rx="1" fill="#ffffff" opacity="0.8" />
+  <!-- 天线 -->
+  <line x1="32" y1="8" x2="32" y2="2" stroke="#00ffff" stroke-width="2" />
+  <circle cx="32" cy="2" r="2" fill="#00ffff" />
+</svg>
